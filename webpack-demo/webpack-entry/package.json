@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "name": "webpack-entry",
+  "version": "1.0.0",
+  "scripts": {
+    "entry:string": "webpack --config entry.string.js --mode=development",
+    "entry:object": "webpack --config entry.object.js --mode=development",
+    "entry:string.array": "webpack --config entry.string.array.js --mode=development",
+    "entry:object.array": "webpack --config entry.object.array.js --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
